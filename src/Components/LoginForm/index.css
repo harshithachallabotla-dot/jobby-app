@@ -1,0 +1,72 @@
+.website-logo-image {
+  height: 45px;
+  width: 150px;
+  margin-left: 45px;
+  margin-bottom: 30px;
+  transform: scale(0.95);
+}
+.login-label {
+  color: white;
+  font-size: 12px;
+  font-weight: 3px;
+  margin-bottom: 7px;
+}
+.login-input-fix {
+  background: transparent;
+  height: 40px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 7px;
+  border-width: 1px;
+  margin-bottom: 18px;
+  padding-left: 10px;
+  color: white;
+}
+.login-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.login-card {
+  background-color: rgba(17, 24, 39, 0.88);
+  width: 350px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+
+.login-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 0 20px rgba(59, 130, 246, 0.5),
+    0 0 40px rgba(59, 130, 246, 0.3);
+}
+
+.login-card button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-card button:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+.error {
+  color: rgb(227, 44, 44);
+}
